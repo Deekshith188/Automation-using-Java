@@ -1,0 +1,107 @@
+package com.sgtesting.interview;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class JavaScript_Selenium {
+	public static void main(String[] args) {
+		WebDriver oBrowser = null;
+		JavascriptExecutor js = null;
+		try {
+			System.setProperty("webdriver.chrome.driver", ".\\Library\\drivers\\chromedriver.exe");
+			oBrowser = new ChromeDriver();
+			oBrowser.manage().window().maximize();
+			oBrowser.navigate().to("file:///H:/OnlineClasses/TestCaseTemplates/Automation/Javascript/SampleJavaScript.html");
+			oBrowser.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+			
+			js = (JavascriptExecutor) oBrowser;
+			
+			//Read URL
+			//String strURL = (String) js.executeScript("return document.URL;");
+			String strURL = (String) js.executeScript("var urls = document.URL; return urls;");
+			System.out.println(strURL);
+			
+			
+			//read the title
+			String strTitle = (String) js.executeScript("var titles = document.title; return titles;");
+			System.out.println(strTitle);
+			
+			
+			//find the no. of links
+			long links = (long) js.executeScript("var links = document.links; return links.length;");
+			System.out.println(links);
+			
+			links = (long) js.executeScript("var links = document.getElementsByTagName('a'); return links.length;");
+			System.out.println(links);
+			
+			
+			//find the no. of forms
+			long forms = (long) js.executeScript("var forms = document.forms; return forms.length;");
+			System.out.println(forms);
+			
+			
+			
+			//enter username and password
+			js.executeScript("var kk = document.getElementById('un_id1'); kk.value = 'admin';");
+			js.executeScript("document.getElementById('pwd_id1').value = 'mercury';");
+			
+			
+			//click the Link
+			//js.executeScript("document.getElementById('link').click();");
+			
+			
+			//How to use xpath in javascript?
+			WebElement oLinks = oBrowser.findElement(By.xpath("//a[text()='Google India']"));
+			js.executeScript("arguments[0].click();", oLinks);
+			
+			
+			//Click on back button
+			oBrowser.navigate().back();
+			Thread.sleep(2000);
+			
+			//Enter value to edit field using 'getElementsByClassName()'
+			js.executeScript("var kk = document.getElementsByClassName('class1'); kk[0].value='zzzzzzz';");
+			
+			
+			//Enter value to second edit field using 'getElementsByName()'
+			js.executeScript("var kk = document.getElementsByName('name1'); kk[1].value='xxxxxxx';");
+			
+			
+			//Enter value to third edit field using 'getElementsByTagName()'
+			js.executeScript("var kk = document.getElementsByTagName('input'); kk[2].value='yyyyy';");
+			
+			
+			//Enter the value fourth edit field using fieldElements()
+			List<WebElement> oEles = oBrowser.findElements(By.xpath("//input[@type='text']"));
+			js.executeScript("arguments[0].value = 'vvvvvv';", oEles.get(3));
+			
+			
+			//Select the value from dropdown using value (selectByValue())
+			js.executeScript("document.getElementById('list1').value='blore';");
+			
+			
+			//Select the value from the dropdown with validations
+			String script="var kk = document.getElementById('list2');";
+			script+="for(var i=0;i<kk.length;i++){;";
+			script+="if(kk.options[i].text=='Raichur'){;";
+			script+="kk.options[i].selected=1";
+			script+="}";
+			script+="}";
+			js.executeScript(script);
+			
+		}catch(Exception e)
+		{
+			System.out.println(e);
+		}
+		finally {
+			js = null;
+			oBrowser = null;
+		}
+	}
+}

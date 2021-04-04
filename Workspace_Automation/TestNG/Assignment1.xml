@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Createuser">
+	<test name="testng">
+		<classes>
+			<class name="com.sgtesting.actitime.Assingment1">
+			</class>
+			<class name="com.sgtesting.actitime.Assignment2">
+			</class>
+			<class name="com.sgtesting.actitime.Assignment3">
+			</class>
+			<class name="com.sgtesting.actitime.Assignment4">
+			</class>
+			<class name="com.sgtesting.actitime.Assignment5">
+			</class>
+			<class name="com.sgtesting.actitime.Assignment6">
+			</class>
+			<class name="com.sgtesting.actitime.Assignment7">
+			</class>
+		</classes>
+	</test>
+</suite>

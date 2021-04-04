@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="30" passed="30">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Createuser" duration-ms="275498" started-at="2021-03-08T18:59:30 IST" finished-at="2021-03-08T19:04:06 IST">
+    <groups>
+    </groups>
+    <test name="testng" duration-ms="275498" started-at="2021-03-08T18:59:30 IST" finished-at="2021-03-08T19:04:06 IST">
+      <class name="com.sgtesting.actitime.Assignment3">
+        <test-method status="PASS" signature="LaunchBrowser_NavigateURL()[pri:0, instance:com.sgtesting.actitime.Assignment3@4973813a]" name="LaunchBrowser_NavigateURL" is-config="true" duration-ms="16186" started-at="2021-03-08T18:58:23 IST" finished-at="2021-03-08T18:58:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser_NavigateURL -->
+        <test-method status="PASS" signature="AA_Login()[pri:0, instance:com.sgtesting.actitime.Assignment3@4973813a]" name="AA_Login" duration-ms="8390" started-at="2021-03-08T19:00:59 IST" finished-at="2021-03-08T19:01:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AA_Login -->
+        <test-method status="PASS" signature="BB_createUser()[pri:0, instance:com.sgtesting.actitime.Assignment3@4973813a]" name="BB_createUser" duration-ms="17583" started-at="2021-03-08T19:01:07 IST" finished-at="2021-03-08T19:01:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BB_createUser -->
+        <test-method status="PASS" signature="CC_ModifyUser()[pri:0, instance:com.sgtesting.actitime.Assignment3@4973813a]" name="CC_ModifyUser" duration-ms="44" started-at="2021-03-08T19:01:25 IST" finished-at="2021-03-08T19:01:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CC_ModifyUser -->
+        <test-method status="PASS" signature="DD_DeleteUser()[pri:0, instance:com.sgtesting.actitime.Assignment3@4973813a]" name="DD_DeleteUser" duration-ms="12290" started-at="2021-03-08T19:01:25 IST" finished-at="2021-03-08T19:01:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DD_DeleteUser -->
+        <test-method status="PASS" signature="eLogout()[pri:0, instance:com.sgtesting.actitime.Assignment3@4973813a]" name="eLogout" is-config="true" duration-ms="12254" started-at="2021-03-08T19:04:18 IST" finished-at="2021-03-08T19:04:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eLogout -->
+        <test-method status="PASS" signature="fCloseApp()[pri:0, instance:com.sgtesting.actitime.Assignment3@4973813a]" name="fCloseApp" is-config="true" duration-ms="237" started-at="2021-03-08T19:04:30 IST" finished-at="2021-03-08T19:04:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fCloseApp -->
+      </class> <!-- com.sgtesting.actitime.Assignment3 -->
+      <class name="com.sgtesting.actitime.Assignment2">
+        <test-method status="PASS" signature="LaunchBrowser_NavigateURL()[pri:0, instance:com.sgtesting.actitime.Assignment2@3a883ce7]" name="LaunchBrowser_NavigateURL" is-config="true" duration-ms="31889" started-at="2021-03-08T18:57:51 IST" finished-at="2021-03-08T18:58:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser_NavigateURL -->
+        <test-method status="PASS" signature="AA_Login()[pri:0, instance:com.sgtesting.actitime.Assignment2@3a883ce7]" name="AA_Login" duration-ms="8337" started-at="2021-03-08T19:00:20 IST" finished-at="2021-03-08T19:00:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AA_Login -->
+        <test-method status="PASS" signature="BB_createUser()[pri:0, instance:com.sgtesting.actitime.Assignment2@3a883ce7]" name="BB_createUser" duration-ms="18370" started-at="2021-03-08T19:00:28 IST" finished-at="2021-03-08T19:00:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BB_createUser -->
+        <test-method status="PASS" signature="CC_DeleteUser()[pri:0, instance:com.sgtesting.actitime.Assignment2@3a883ce7]" name="CC_DeleteUser" duration-ms="12288" started-at="2021-03-08T19:00:47 IST" finished-at="2021-03-08T19:00:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CC_DeleteUser -->
+        <test-method status="PASS" signature="ALogout()[pri:0, instance:com.sgtesting.actitime.Assignment2@3a883ce7]" name="ALogout" is-config="true" duration-ms="12217" started-at="2021-03-08T19:04:06 IST" finished-at="2021-03-08T19:04:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ALogout -->
+      </class> <!-- com.sgtesting.actitime.Assignment2 -->
+      <class name="com.sgtesting.actitime.Assingment1">
+        <test-method status="PASS" signature="A_launchBrowser()[pri:0, instance:com.sgtesting.actitime.Assingment1@3b084709]" name="A_launchBrowser" is-config="true" duration-ms="6521" started-at="2021-03-08T18:59:30 IST" finished-at="2021-03-08T18:59:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_launchBrowser -->
+        <test-method status="PASS" signature="B_navigate()[pri:0, instance:com.sgtesting.actitime.Assingment1@3b084709]" name="B_navigate" duration-ms="3503" started-at="2021-03-08T18:59:37 IST" finished-at="2021-03-08T18:59:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B_navigate -->
+        <test-method status="PASS" signature="C_login()[pri:0, instance:com.sgtesting.actitime.Assingment1@3b084709]" name="C_login" duration-ms="13507" started-at="2021-03-08T18:59:40 IST" finished-at="2021-03-08T18:59:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C_login -->
+        <test-method status="PASS" signature="D_createUser()[pri:0, instance:com.sgtesting.actitime.Assingment1@3b084709]" name="D_createUser" duration-ms="23478" started-at="2021-03-08T18:59:54 IST" finished-at="2021-03-08T19:00:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- D_createUser -->
+        <test-method status="PASS" signature="E_modifyUser()[pri:0, instance:com.sgtesting.actitime.Assingment1@3b084709]" name="E_modifyUser" duration-ms="1250" started-at="2021-03-08T19:00:17 IST" finished-at="2021-03-08T19:00:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E_modifyUser -->
+        <test-method status="PASS" signature="F_DeleteUser()[pri:0, instance:com.sgtesting.actitime.Assingment1@3b084709]" name="F_DeleteUser" duration-ms="36" started-at="2021-03-08T19:00:19 IST" finished-at="2021-03-08T19:00:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- F_DeleteUser -->
+        <test-method status="PASS" signature="G_logout()[pri:0, instance:com.sgtesting.actitime.Assingment1@3b084709]" name="G_logout" duration-ms="1140" started-at="2021-03-08T19:00:19 IST" finished-at="2021-03-08T19:00:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G_logout -->
+        <test-method status="PASS" signature="H_close()[pri:0, instance:com.sgtesting.actitime.Assingment1@3b084709]" name="H_close" is-config="true" duration-ms="216" started-at="2021-03-08T19:00:20 IST" finished-at="2021-03-08T19:00:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- H_close -->
+      </class> <!-- com.sgtesting.actitime.Assingment1 -->
+      <class name="com.sgtesting.actitime.Assignment7">
+        <test-method status="PASS" signature="launchBrowser_NavigateURL()[pri:0, instance:com.sgtesting.actitime.Assignment7@57855c9a]" name="launchBrowser_NavigateURL" is-config="true" duration-ms="13138" started-at="2021-03-08T18:59:17 IST" finished-at="2021-03-08T18:59:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser_NavigateURL -->
+        <test-method status="PASS" signature="aaLogin()[pri:0, instance:com.sgtesting.actitime.Assignment7@57855c9a]" name="aaLogin" duration-ms="6483" started-at="2021-03-08T19:03:10 IST" finished-at="2021-03-08T19:03:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaLogin -->
+        <test-method status="PASS" signature="bbcreateCustomer()[pri:0, instance:com.sgtesting.actitime.Assignment7@57855c9a]" name="bbcreateCustomer" duration-ms="12219" started-at="2021-03-08T19:03:17 IST" finished-at="2021-03-08T19:03:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bbcreateCustomer -->
+        <test-method status="PASS" signature="ccCreateProject()[pri:0, instance:com.sgtesting.actitime.Assignment7@57855c9a]" name="ccCreateProject" duration-ms="12214" started-at="2021-03-08T19:03:29 IST" finished-at="2021-03-08T19:03:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ccCreateProject -->
+        <test-method status="PASS" signature="ddDeleteProject()[pri:0, instance:com.sgtesting.actitime.Assignment7@57855c9a]" name="ddDeleteProject" duration-ms="12181" started-at="2021-03-08T19:03:41 IST" finished-at="2021-03-08T19:03:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ddDeleteProject -->
+        <test-method status="PASS" signature="eeDeleteCustomer()[pri:0, instance:com.sgtesting.actitime.Assignment7@57855c9a]" name="eeDeleteCustomer" duration-ms="12203" started-at="2021-03-08T19:03:53 IST" finished-at="2021-03-08T19:04:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eeDeleteCustomer -->
+        <test-method status="PASS" signature="FLogout()[pri:0, instance:com.sgtesting.actitime.Assignment7@57855c9a]" name="FLogout" is-config="true" duration-ms="12202" started-at="2021-03-08T19:05:08 IST" finished-at="2021-03-08T19:05:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FLogout -->
+        <test-method status="PASS" signature="GCloseApp()[pri:0, instance:com.sgtesting.actitime.Assignment7@57855c9a]" name="GCloseApp" is-config="true" duration-ms="283" started-at="2021-03-08T19:05:20 IST" finished-at="2021-03-08T19:05:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GCloseApp -->
+      </class> <!-- com.sgtesting.actitime.Assignment7 -->
+      <class name="com.sgtesting.actitime.Assignment6">
+        <test-method status="PASS" signature="launchBrowser_NavigateURL()[pri:0, instance:com.sgtesting.actitime.Assignment6@22a67b4]" name="launchBrowser_NavigateURL" is-config="true" duration-ms="11863" started-at="2021-03-08T18:59:05 IST" finished-at="2021-03-08T18:59:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser_NavigateURL -->
+        <test-method status="PASS" signature="aLogin()[pri:0, instance:com.sgtesting.actitime.Assignment6@22a67b4]" name="aLogin" duration-ms="6434" started-at="2021-03-08T19:02:27 IST" finished-at="2021-03-08T19:02:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aLogin -->
+        <test-method status="PASS" signature="bcreateCustomer()[pri:0, instance:com.sgtesting.actitime.Assignment6@22a67b4]" name="bcreateCustomer" duration-ms="11254" started-at="2021-03-08T19:02:33 IST" finished-at="2021-03-08T19:02:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcreateCustomer -->
+        <test-method status="PASS" signature="cCreateProject()[pri:0, instance:com.sgtesting.actitime.Assignment6@22a67b4]" name="cCreateProject" duration-ms="8489" started-at="2021-03-08T19:02:45 IST" finished-at="2021-03-08T19:02:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cCreateProject -->
+        <test-method status="PASS" signature="dDeleteProject()[pri:0, instance:com.sgtesting.actitime.Assignment6@22a67b4]" name="dDeleteProject" duration-ms="8647" started-at="2021-03-08T19:02:53 IST" finished-at="2021-03-08T19:03:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dDeleteProject -->
+        <test-method status="PASS" signature="eDeleteCustomer()[pri:0, instance:com.sgtesting.actitime.Assignment6@22a67b4]" name="eDeleteCustomer" duration-ms="8500" started-at="2021-03-08T19:03:02 IST" finished-at="2021-03-08T19:03:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eDeleteCustomer -->
+        <test-method status="PASS" signature="fLogout()[pri:0, instance:com.sgtesting.actitime.Assignment6@22a67b4]" name="fLogout" is-config="true" duration-ms="12182" started-at="2021-03-08T19:04:56 IST" finished-at="2021-03-08T19:05:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fLogout -->
+        <test-method status="PASS" signature="gCloseApp()[pri:0, instance:com.sgtesting.actitime.Assignment6@22a67b4]" name="gCloseApp" is-config="true" duration-ms="330" started-at="2021-03-08T19:05:08 IST" finished-at="2021-03-08T19:05:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gCloseApp -->
+      </class> <!-- com.sgtesting.actitime.Assignment6 -->
+      <class name="com.sgtesting.actitime.Assignment5">
+        <test-method status="PASS" signature="launchBrowser_NavigateURL()[pri:0, instance:com.sgtesting.actitime.Assignment5@79be0360]" name="launchBrowser_NavigateURL" is-config="true" duration-ms="10655" started-at="2021-03-08T18:58:54 IST" finished-at="2021-03-08T18:59:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser_NavigateURL -->
+        <test-method status="PASS" signature="aaLogin()[pri:0, instance:com.sgtesting.actitime.Assignment5@79be0360]" name="aaLogin" duration-ms="8638" started-at="2021-03-08T19:01:57 IST" finished-at="2021-03-08T19:02:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaLogin -->
+        <test-method status="PASS" signature="bbcreateCustomer()[pri:0, instance:com.sgtesting.actitime.Assignment5@79be0360]" name="bbcreateCustomer" duration-ms="13420" started-at="2021-03-08T19:02:05 IST" finished-at="2021-03-08T19:02:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bbcreateCustomer -->
+        <test-method status="PASS" signature="ccDeleteCustomer()[pri:0, instance:com.sgtesting.actitime.Assignment5@79be0360]" name="ccDeleteCustomer" duration-ms="8420" started-at="2021-03-08T19:02:19 IST" finished-at="2021-03-08T19:02:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ccDeleteCustomer -->
+        <test-method status="PASS" signature="aLogout()[pri:0, instance:com.sgtesting.actitime.Assignment5@79be0360]" name="aLogout" is-config="true" duration-ms="12235" started-at="2021-03-08T19:04:43 IST" finished-at="2021-03-08T19:04:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aLogout -->
+        <test-method status="PASS" signature="bCloseApp()[pri:0, instance:com.sgtesting.actitime.Assignment5@79be0360]" name="bCloseApp" is-config="true" duration-ms="252" started-at="2021-03-08T19:04:55 IST" finished-at="2021-03-08T19:04:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bCloseApp -->
+      </class> <!-- com.sgtesting.actitime.Assignment5 -->
+      <class name="com.sgtesting.actitime.Assignment4">
+        <test-method status="PASS" signature="launchBrowser_NavigateURL()[pri:0, instance:com.sgtesting.actitime.Assignment4@6321e813]" name="launchBrowser_NavigateURL" is-config="true" duration-ms="15269" started-at="2021-03-08T18:58:39 IST" finished-at="2021-03-08T18:58:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser_NavigateURL -->
+        <test-method status="PASS" signature="aLogin()[pri:0, instance:com.sgtesting.actitime.Assignment4@6321e813]" name="aLogin" duration-ms="8408" started-at="2021-03-08T19:01:37 IST" finished-at="2021-03-08T19:01:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aLogin -->
+        <test-method status="PASS" signature="bcreateCustomer()[pri:0, instance:com.sgtesting.actitime.Assignment4@6321e813]" name="bcreateCustomer" duration-ms="10799" started-at="2021-03-08T19:01:46 IST" finished-at="2021-03-08T19:01:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcreateCustomer -->
+        <test-method status="PASS" signature="cModifyCustomer()[pri:0, instance:com.sgtesting.actitime.Assignment4@6321e813]" name="cModifyCustomer" duration-ms="29" started-at="2021-03-08T19:01:56 IST" finished-at="2021-03-08T19:01:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cModifyCustomer -->
+        <test-method status="PASS" signature="dDeleteCustomer()[pri:0, instance:com.sgtesting.actitime.Assignment4@6321e813]" name="dDeleteCustomer" duration-ms="30" started-at="2021-03-08T19:01:56 IST" finished-at="2021-03-08T19:01:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dDeleteCustomer -->
+        <test-method status="PASS" signature="eLogout()[pri:0, instance:com.sgtesting.actitime.Assignment4@6321e813]" name="eLogout" is-config="true" duration-ms="12198" started-at="2021-03-08T19:04:31 IST" finished-at="2021-03-08T19:04:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eLogout -->
+        <test-method status="PASS" signature="fCloseApp()[pri:0, instance:com.sgtesting.actitime.Assignment4@6321e813]" name="fCloseApp" is-config="true" duration-ms="251" started-at="2021-03-08T19:04:43 IST" finished-at="2021-03-08T19:04:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fCloseApp -->
+      </class> <!-- com.sgtesting.actitime.Assignment4 -->
+    </test> <!-- testng -->
+  </suite> <!-- Createuser -->
+</testng-results>

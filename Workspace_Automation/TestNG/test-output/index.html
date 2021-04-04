@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Createuser">
+              <span class="suite-name border-passed">Createuser</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Createuser">
+                    <span>E:\Workspace_Automation\TestNG\Assignment1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Createuser">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Createuser">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Createuser">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Createuser">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Createuser">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Createuser">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods,   30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Createuser" class="hide-methods passed suite-Createuser"> (hide)</a> <!-- hide-methods passed suite-Createuser -->
+                      <a href="#" panel-name="suite-Createuser" class="show-methods passed suite-Createuser"> (show)</a> <!-- show-methods passed suite-Createuser -->
+                    </span>
+                    <div class="method-list-content passed suite-Createuser">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment3" hash-for-method="AA_Login">AA_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment2" hash-for-method="AA_Login">AA_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment2" hash-for-method="BB_createUser">BB_createUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment3" hash-for-method="BB_createUser">BB_createUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assingment1" hash-for-method="B_navigate">B_navigate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment2" hash-for-method="CC_DeleteUser">CC_DeleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment3" hash-for-method="CC_ModifyUser">CC_ModifyUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assingment1" hash-for-method="C_login">C_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment3" hash-for-method="DD_DeleteUser">DD_DeleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assingment1" hash-for-method="D_createUser">D_createUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assingment1" hash-for-method="E_modifyUser">E_modifyUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assingment1" hash-for-method="F_DeleteUser">F_DeleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assingment1" hash-for-method="G_logout">G_logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment4" hash-for-method="aLogin">aLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment6" hash-for-method="aLogin">aLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment7" hash-for-method="aaLogin">aaLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment5" hash-for-method="aaLogin">aaLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment7" hash-for-method="bbcreateCustomer">bbcreateCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment5" hash-for-method="bbcreateCustomer">bbcreateCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment4" hash-for-method="bcreateCustomer">bcreateCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment6" hash-for-method="bcreateCustomer">bcreateCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment6" hash-for-method="cCreateProject">cCreateProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment4" hash-for-method="cModifyCustomer">cModifyCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment7" hash-for-method="ccCreateProject">ccCreateProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment5" hash-for-method="ccDeleteCustomer">ccDeleteCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment4" hash-for-method="dDeleteCustomer">dDeleteCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment6" hash-for-method="dDeleteProject">dDeleteProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment7" hash-for-method="ddDeleteProject">ddDeleteProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment6" hash-for-method="eDeleteCustomer">eDeleteCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Createuser" title="com.sgtesting.actitime.Assignment7" hash-for-method="eeDeleteCustomer">eeDeleteCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Createuser -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Createuser" class="panel Createuser">
+          <div class="suite-Createuser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sgtesting.actitime.Assignment5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aaLogin">
+                  </a> <!-- aaLogin -->
+                  <span class="method-name">aaLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bbcreateCustomer">
+                  </a> <!-- bbcreateCustomer -->
+                  <span class="method-name">bbcreateCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ccDeleteCustomer">
+                  </a> <!-- ccDeleteCustomer -->
+                  <span class="method-name">ccDeleteCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Createuser-class-passed -->
+          <div class="suite-Createuser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sgtesting.actitime.Assignment2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AA_Login">
+                  </a> <!-- AA_Login -->
+                  <span class="method-name">AA_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BB_createUser">
+                  </a> <!-- BB_createUser -->
+                  <span class="method-name">BB_createUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CC_DeleteUser">
+                  </a> <!-- CC_DeleteUser -->
+                  <span class="method-name">CC_DeleteUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Createuser-class-passed -->
+          <div class="suite-Createuser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sgtesting.actitime.Assignment7</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aaLogin">
+                  </a> <!-- aaLogin -->
+                  <span class="method-name">aaLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bbcreateCustomer">
+                  </a> <!-- bbcreateCustomer -->
+                  <span class="method-name">bbcreateCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ccCreateProject">
+                  </a> <!-- ccCreateProject -->
+                  <span class="method-name">ccCreateProject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ddDeleteProject">
+                  </a> <!-- ddDeleteProject -->
+                  <span class="method-name">ddDeleteProject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="eeDeleteCustomer">
+                  </a> <!-- eeDeleteCustomer -->
+                  <span class="method-name">eeDeleteCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Createuser-class-passed -->
+          <div class="suite-Createuser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sgtesting.actitime.Assingment1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="B_navigate">
+                  </a> <!-- B_navigate -->
+                  <span class="method-name">B_navigate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="C_login">
+                  </a> <!-- C_login -->
+                  <span class="method-name">C_login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="D_createUser">
+                  </a> <!-- D_createUser -->
+                  <span class="method-name">D_createUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="E_modifyUser">
+                  </a> <!-- E_modifyUser -->
+                  <span class="method-name">E_modifyUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="F_DeleteUser">
+                  </a> <!-- F_DeleteUser -->
+                  <span class="method-name">F_DeleteUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="G_logout">
+                  </a> <!-- G_logout -->
+                  <span class="method-name">G_logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Createuser-class-passed -->
+          <div class="suite-Createuser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sgtesting.actitime.Assignment6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aLogin">
+                  </a> <!-- aLogin -->
+                  <span class="method-name">aLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bcreateCustomer">
+                  </a> <!-- bcreateCustomer -->
+                  <span class="method-name">bcreateCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cCreateProject">
+                  </a> <!-- cCreateProject -->
+                  <span class="method-name">cCreateProject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dDeleteProject">
+                  </a> <!-- dDeleteProject -->
+                  <span class="method-name">dDeleteProject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="eDeleteCustomer">
+                  </a> <!-- eDeleteCustomer -->
+                  <span class="method-name">eDeleteCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Createuser-class-passed -->
+          <div class="suite-Createuser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sgtesting.actitime.Assignment3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AA_Login">
+                  </a> <!-- AA_Login -->
+                  <span class="method-name">AA_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BB_createUser">
+                  </a> <!-- BB_createUser -->
+                  <span class="method-name">BB_createUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CC_ModifyUser">
+                  </a> <!-- CC_ModifyUser -->
+                  <span class="method-name">CC_ModifyUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DD_DeleteUser">
+                  </a> <!-- DD_DeleteUser -->
+                  <span class="method-name">DD_DeleteUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Createuser-class-passed -->
+          <div class="suite-Createuser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sgtesting.actitime.Assignment4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aLogin">
+                  </a> <!-- aLogin -->
+                  <span class="method-name">aLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bcreateCustomer">
+                  </a> <!-- bcreateCustomer -->
+                  <span class="method-name">bcreateCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cModifyCustomer">
+                  </a> <!-- cModifyCustomer -->
+                  <span class="method-name">cModifyCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dDeleteCustomer">
+                  </a> <!-- dDeleteCustomer -->
+                  <span class="method-name">dDeleteCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Createuser-class-passed -->
+        </div> <!-- panel Createuser -->
+        <div panel-name="test-xml-Createuser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Workspace_Automation\TestNG\Assignment1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Createuser&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;testng&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sgtesting.actitime.Assingment1&quot;/&gt;
+      &lt;class name=&quot;com.sgtesting.actitime.Assignment2&quot;/&gt;
+      &lt;class name=&quot;com.sgtesting.actitime.Assignment3&quot;/&gt;
+      &lt;class name=&quot;com.sgtesting.actitime.Assignment4&quot;/&gt;
+      &lt;class name=&quot;com.sgtesting.actitime.Assignment5&quot;/&gt;
+      &lt;class name=&quot;com.sgtesting.actitime.Assignment6&quot;/&gt;
+      &lt;class name=&quot;com.sgtesting.actitime.Assignment7&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testng --&gt;
+&lt;/suite&gt; &lt;!-- Createuser --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Createuser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Createuser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">testng (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Createuser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Createuser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Createuser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Createuser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Createuser');
+function tableData_Createuser() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'D_createUser')
+data.setCell(0, 2, 'com.sgtesting.actitime.Assingment1')
+data.setCell(0, 3, 23478);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'BB_createUser')
+data.setCell(1, 2, 'com.sgtesting.actitime.Assignment2')
+data.setCell(1, 3, 18370);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'BB_createUser')
+data.setCell(2, 2, 'com.sgtesting.actitime.Assignment3')
+data.setCell(2, 3, 17583);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'C_login')
+data.setCell(3, 2, 'com.sgtesting.actitime.Assingment1')
+data.setCell(3, 3, 13507);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'bbcreateCustomer')
+data.setCell(4, 2, 'com.sgtesting.actitime.Assignment5')
+data.setCell(4, 3, 13420);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'DD_DeleteUser')
+data.setCell(5, 2, 'com.sgtesting.actitime.Assignment3')
+data.setCell(5, 3, 12290);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'CC_DeleteUser')
+data.setCell(6, 2, 'com.sgtesting.actitime.Assignment2')
+data.setCell(6, 3, 12288);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'bbcreateCustomer')
+data.setCell(7, 2, 'com.sgtesting.actitime.Assignment7')
+data.setCell(7, 3, 12219);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ccCreateProject')
+data.setCell(8, 2, 'com.sgtesting.actitime.Assignment7')
+data.setCell(8, 3, 12214);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'eeDeleteCustomer')
+data.setCell(9, 2, 'com.sgtesting.actitime.Assignment7')
+data.setCell(9, 3, 12203);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ddDeleteProject')
+data.setCell(10, 2, 'com.sgtesting.actitime.Assignment7')
+data.setCell(10, 3, 12181);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'bcreateCustomer')
+data.setCell(11, 2, 'com.sgtesting.actitime.Assignment6')
+data.setCell(11, 3, 11254);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'bcreateCustomer')
+data.setCell(12, 2, 'com.sgtesting.actitime.Assignment4')
+data.setCell(12, 3, 10799);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'dDeleteProject')
+data.setCell(13, 2, 'com.sgtesting.actitime.Assignment6')
+data.setCell(13, 3, 8647);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'aaLogin')
+data.setCell(14, 2, 'com.sgtesting.actitime.Assignment5')
+data.setCell(14, 3, 8638);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'eDeleteCustomer')
+data.setCell(15, 2, 'com.sgtesting.actitime.Assignment6')
+data.setCell(15, 3, 8500);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'cCreateProject')
+data.setCell(16, 2, 'com.sgtesting.actitime.Assignment6')
+data.setCell(16, 3, 8489);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ccDeleteCustomer')
+data.setCell(17, 2, 'com.sgtesting.actitime.Assignment5')
+data.setCell(17, 3, 8420);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'aLogin')
+data.setCell(18, 2, 'com.sgtesting.actitime.Assignment4')
+data.setCell(18, 3, 8408);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'AA_Login')
+data.setCell(19, 2, 'com.sgtesting.actitime.Assignment3')
+data.setCell(19, 3, 8390);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'AA_Login')
+data.setCell(20, 2, 'com.sgtesting.actitime.Assignment2')
+data.setCell(20, 3, 8337);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'aaLogin')
+data.setCell(21, 2, 'com.sgtesting.actitime.Assignment7')
+data.setCell(21, 3, 6483);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'aLogin')
+data.setCell(22, 2, 'com.sgtesting.actitime.Assignment6')
+data.setCell(22, 3, 6434);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'B_navigate')
+data.setCell(23, 2, 'com.sgtesting.actitime.Assingment1')
+data.setCell(23, 3, 3503);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'E_modifyUser')
+data.setCell(24, 2, 'com.sgtesting.actitime.Assingment1')
+data.setCell(24, 3, 1250);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'G_logout')
+data.setCell(25, 2, 'com.sgtesting.actitime.Assingment1')
+data.setCell(25, 3, 1140);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'CC_ModifyUser')
+data.setCell(26, 2, 'com.sgtesting.actitime.Assignment3')
+data.setCell(26, 3, 44);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'F_DeleteUser')
+data.setCell(27, 2, 'com.sgtesting.actitime.Assingment1')
+data.setCell(27, 3, 36);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'dDeleteCustomer')
+data.setCell(28, 2, 'com.sgtesting.actitime.Assignment4')
+data.setCell(28, 3, 30);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'cModifyCustomer')
+data.setCell(29, 2, 'com.sgtesting.actitime.Assignment4')
+data.setCell(29, 3, 29);
+window.suiteTableData['Createuser']= { tableData: data, tableDiv: 'times-div-Createuser'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Createuser">
+              </div> <!-- times-div-Createuser -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Createuser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Createuser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Createuser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Createuser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">LaunchBrowser_NavigateURL</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment3</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">LaunchBrowser_NavigateURL</span>
+                <span class="method-start">31889 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment4</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launchBrowser_NavigateURL</span>
+                <span class="method-start">48075 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment5</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launchBrowser_NavigateURL</span>
+                <span class="method-start">63344 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment6</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launchBrowser_NavigateURL</span>
+                <span class="method-start">73999 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment7</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launchBrowser_NavigateURL</span>
+                <span class="method-start">85862 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assingment1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">A_launchBrowser</span>
+                <span class="method-start">99031 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">B_navigate</span>
+                <span class="method-start">105568 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">C_login</span>
+                <span class="method-start">109118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">D_createUser</span>
+                <span class="method-start">122625 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">E_modifyUser</span>
+                <span class="method-start">146103 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">F_DeleteUser</span>
+                <span class="method-start">147353 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">G_logout</span>
+                <span class="method-start">147391 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">H_close</span>
+                <span class="method-start">148531 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AA_Login</span>
+                <span class="method-start">148747 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BB_createUser</span>
+                <span class="method-start">157088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CC_DeleteUser</span>
+                <span class="method-start">175458 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AA_Login</span>
+                <span class="method-start">187761 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BB_createUser</span>
+                <span class="method-start">196152 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CC_ModifyUser</span>
+                <span class="method-start">213738 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DD_DeleteUser</span>
+                <span class="method-start">213785 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment4</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aLogin</span>
+                <span class="method-start">226080 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bcreateCustomer</span>
+                <span class="method-start">234490 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cModifyCustomer</span>
+                <span class="method-start">245290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dDeleteCustomer</span>
+                <span class="method-start">245320 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment5</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aaLogin</span>
+                <span class="method-start">245352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bbcreateCustomer</span>
+                <span class="method-start">253992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ccDeleteCustomer</span>
+                <span class="method-start">267415 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment6</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aLogin</span>
+                <span class="method-start">275838 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bcreateCustomer</span>
+                <span class="method-start">282276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cCreateProject</span>
+                <span class="method-start">293532 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dDeleteProject</span>
+                <span class="method-start">302023 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">eDeleteCustomer</span>
+                <span class="method-start">310672 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment7</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aaLogin</span>
+                <span class="method-start">319177 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bbcreateCustomer</span>
+                <span class="method-start">325662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ccCreateProject</span>
+                <span class="method-start">337882 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ddDeleteProject</span>
+                <span class="method-start">350097 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">eeDeleteCustomer</span>
+                <span class="method-start">362294 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">ALogout</span>
+                <span class="method-start">374748 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment3</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">eLogout</span>
+                <span class="method-start">386965 ms</span>
+              </div> <!-- configuration-suite after -->
+              <div class="configuration-suite after">
+                <span class="method-name">fCloseApp</span>
+                <span class="method-start">399219 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment4</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">eLogout</span>
+                <span class="method-start">399456 ms</span>
+              </div> <!-- configuration-suite after -->
+              <div class="configuration-suite after">
+                <span class="method-name">fCloseApp</span>
+                <span class="method-start">411655 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment5</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">aLogout</span>
+                <span class="method-start">411906 ms</span>
+              </div> <!-- configuration-suite after -->
+              <div class="configuration-suite after">
+                <span class="method-name">bCloseApp</span>
+                <span class="method-start">424141 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment6</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">fLogout</span>
+                <span class="method-start">424393 ms</span>
+              </div> <!-- configuration-suite after -->
+              <div class="configuration-suite after">
+                <span class="method-name">gCloseApp</span>
+                <span class="method-start">436575 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.Assignment7</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">FLogout</span>
+                <span class="method-start">436905 ms</span>
+              </div> <!-- configuration-suite after -->
+              <div class="configuration-suite after">
+                <span class="method-name">GCloseApp</span>
+                <span class="method-start">449107 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

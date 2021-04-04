@@ -1,0 +1,48 @@
+package com.sgtesting.Selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class DropDown {
+	public static WebDriver obrowser=null;
+
+	public static void main(String[] args) {
+		launchBrowser();
+	
+	}
+	static void launchBrowser()
+	{
+		try {
+			System.getProperty("webdriver.chrome.driver","E:\\SeleniumAutomation\\Automation\\InterviewQuestion\\Library\\Drivers\\chromedriver.exe");
+			obrowser =new ChromeDriver();
+			obrowser.manage().window().maximize();
+			obrowser.get("C:\\Users\\Deek\\Downloads\\DropDown.html");
+			Thread.sleep(2000);
+			
+			
+			WebElement drop= obrowser.findElement(By.xpath("//select[@id='cars1']"));
+
+			Select sel=new Select(drop);//Using Select class we can handle the dropdown windows 
+			
+			/*OTHER METHODS FOR DROP DOWN ARE
+			WebElement obj1= obrowser.findElement(By.xpath("");
+			for all the dropdown elements we need to create new webelement objects very time s
+			
+			sel.selectByIndex(3);
+			sel.selectByValue(arg0);
+			sel.selectByVisibleText(arg0);
+			sel.deselectAll();*/
+			
+			
+			
+			
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+}

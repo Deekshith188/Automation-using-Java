@@ -1,0 +1,71 @@
+package com.sgtesting.Selenium;
+
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class PopupBrowsersDemo {
+
+	public static WebDriver oBrowser=null;
+	public static void main(String[] args) {
+		launchBrowser();
+		navigateURL();
+		handlePopUps();
+	}
+	static void launchBrowser()
+	{
+		try
+		{
+			String path=System.getProperty("user.dir");
+			System.setProperty("webdriver.chrome.driver", path+"\\Library\\drivers\\chromedriver.exe");
+			oBrowser=new ChromeDriver();
+			oBrowser.manage().window().maximize();
+			Thread.sleep(4000);
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+	
+	static void navigateURL()
+	{
+		try
+		{
+			oBrowser.get("http://localhost/login.do");
+			Thread.sleep(4000);
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+	
+	static void handlePopUps()
+	{
+		try
+		{
+			oBrowser.findElement(By.linkText("actiTIME Inc.")).click();
+			Thread.sleep(4000);
+			String parentwindow=oBrowser.getWindowHandle();
+			System.out.println("Parent Browser:"+parentwindow);
+			Set oPopups=oBrowser.getWindowHandles();
+			Object popups[]=oPopups.toArray();
+			for(int i=1;i<popups.length;i++)
+			{
+				String windowhandler=popups[i].toString();
+				System.out.println(windowhandler);
+				oBrowser.switchTo().window(windowhandler);
+				Thread.sleep(2000);
+				oBrowser.findElement(By.linkText("Start Using actiTIME")).click();
+				Thread.sleep(4000);
+				oBrowser.close();
+				Thread.sleep(1000);
+			}
+			
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+}
